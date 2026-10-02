@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Engineering Student</title>
+    <meta name="description"
+        content="Personal Portfolio of a passionate Engineering Student showcasing projects, skills, and experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">Tanvi N. Lohkar<span class="dot">.</span></a>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+            <div class="hero-bg">
+                <div class="hero-bg-gradient"></div>
+                <div class="hero-bg-pattern"></div>
+            </div>
+
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <!-- Profile Photo -->
+                    <div class="hero-profile">
+                        <img src="assets/img/1.jpg" alt="Tanvi N. Lohkar" class="hero-img">
+                    </div>
+
+                    <!-- Text Content -->
+                    <div class="hero-text-content">
+                        <!-- Welcome Tag -->
+                        <div class="hero-badge">Welcome to my portfolio</div>
+
+                        <!-- Name with Blue Gradient -->
+                        <h1 class="hero-title">Tanvi N. Lohkar</h1>
+
+                        <!-- Subtitle -->
+                        <span class="hero-subtitle">Engineering Student</span>
+
+                        <!-- Tagline -->
+                        <p class="hero-description">
+                            Turning ideas into impactful engineering solutions. Learning, building, and growing through engineering.
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="hero-buttons">
+                            <a href="#projects" class="button button--primary">
+                                View My Work ↓
+                            </a>
+                            <a href="#contact" class="button button--ghost">
+                                Get in Touch
+                            </a>
+                        </div>
+
+                        <!-- Social Media Icons -->
+                        <div class="hero-social">
+                            <a href="#" target="_blank" class="hero-social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="#" target="_blank" class="hero-social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="mailto:user@gmail.com" class="hero-social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </a>
+                            <a href="#" target="_blank" class="hero-social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My Introduction</span>
+
+            <div class="about-container container grid">
+                <div class="about-data">
+                    <div class="info-header" style="margin-bottom: 1rem; border-bottom: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="info-header-icon">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <h3 class="info-title">My Introduction</h3>
+                    </div>
+                    <p class="about-description">
+                        I am currently pursuing a degree in Engineering. My journey began with a curiosity for how
+                        things work, which solidified into a passion for software development and problem-solving.
+                        <br><br>
+                        I love creating elegant solutions to complex problems. Whether it's developing web applications
+                        or diving into algorithms, I'm always eager to learn and grow.
+                    </p>
+
+                </div>
+
+                <!-- Personal Info Card -->
+                <div class="personal-info-wrapper">
+                    <div class="personal-info-card">
+                        <div class="info-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="info-header-icon">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            <h3 class="info-title">Personal Information</h3>
+                        </div>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Born</span>
+                                    <span class="info-text">06 Jan 2006</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Location</span>
+                                    <span class="info-text">Yavatmal, Maharashtra, India</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Languages</span>
+                                    <span class="info-text">Hindi, English, Marathi</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z">
+                                        </path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="info-content">
+                                    <span class="info-label">Hobbies</span>
+                                    <span class="info-text">Coding, Problem Solving, TechProjects, Creative Work,
+                                        Learning New Technologies</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <span class="section-subtitle">My Technical Level</span>
+
+            <div class="skills-container container grid">
+                <div class="skills-content">
+                    <h3 class="skills-title">Technical Skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data">
+                                <h3 class="skills-name">C / C++</h3>
+                                <span class="skills-level">Intermediate</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">HTML</h3>
+                                <span class="skills-level">Advanced</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">Python</h3>
+                                <span class="skills-level">Intermediate</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">JavaScript</h3>
+                                <span class="skills-level">Intermediate</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">SQL</h3>
+                                <span class="skills-level">Basic</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">MS Word</h3>
+                                <span class="skills-level">Advanced</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-content">
+                    <h3 class="skills-title">Soft Skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-group">
+                            <div class="skills-data">
+                                <h3 class="skills-name">Teamwork</h3>
+                                <span class="skills-level">Collaborative</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">Problem Solving</h3>
+                                <span class="skills-level">Analytical</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">Communication</h3>
+                                <span class="skills-level">Clear & Effective</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">Leadership</h3>
+                                <span class="skills-level">Motivating</span>
+                            </div>
+                            <div class="skills-data">
+                                <h3 class="skills-name">Creativity</h3>
+                                <span class="skills-level">Innovative</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Software Projects</h2>
+            <span class="section-subtitle">A collection of software projects focused on performance and
+                scalability</span>
+
+            <div class="projects-container container grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/toolhub.jfif" alt="ToolHub"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ToolHub</h3>
+                        <p class="project-description">Comprehensive toolkit platform offering various utilities and tools for developers and designers.</p>
+                        <div class="project-tags">
+                            <span>Tools</span><span>Utilities</span><span>Web</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://toolhub01.netlify.app" target="_blank" class="project-link">
+                                Visit Website <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/background.jpg" alt="CodePro"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CodePro</h3>
+                        <p class="project-description">Professional code editor with advanced features for developers including syntax highlighting and IntelliSense.</p>
+                        <div class="project-tags">
+                            <span>AI</span><span>NLP</span><span>React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://code-pro01.netlify.app" target="_blank" class="project-link">
+                                Visit Website <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 1: E-Commerce Website -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/4.webp" alt="E-Commerce Website"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Website</h3>
+                        <p class="project-description">Modern online shopping platform with secure payment processing
+                            and inventory management.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                Demo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Emotion Detector -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/5.jpg" alt="Emotion Detector"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Emotion Detector</h3>
+                        <p class="project-description">AI-powered facial recognition system that analyzes and interprets
+                            human emotions in real time.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>OpenCV</span><span>TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                View <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Document Verification -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/6.webp" alt="Document Verification"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Document Verification</h3>
+                        <p class="project-description">Secure document authentication platform using blockchain
+                            technology for tamper-proof verification.</p>
+                        <div class="project-tags">
+                            <span>Blockchain</span><span>Solidity</span><span>Web3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M16 18l6-6-6-6"></path>
+                                    <path d="M8 6l-6 6 6 6"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Resume Builder -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/resume.jpg" alt="Resume Builder"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Resume Builder</h3>
+                        <p class="project-description">Professional resume creation tool with modern templates and real-time preview functionality.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>JavaScript</span><span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://resume-spark-01.netlify.app" target="_blank" class="project-link">
+                                Visit Website <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Predicting Heart Health with Precision -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/heart_health.jpg" alt="Predicting Heart Health with Precision"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Predicting Heart Health with Precision</h3>
+                        <p class="project-description">AI-powered system for accurate heart disease prediction using machine learning algorithms and medical data analysis.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Machine Learning</span><span>Healthcare</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                View Project <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hardware Projects -->
+            <h2 class="section-title">Hardware Projects</h2>
+            <span class="section-subtitle">Developing intelligent hardware with sensors and controllers.<br>Connecting
+                hardware to the digital world.</span>
+
+            <div class="projects-container container grid">
+                <!-- Project 1: Automatic Parking Sensor -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/7.jpg" alt="Automatic Parking Sensor"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automatic Parking Sensor</h3>
+                        <p class="project-description">Smart parking assistance system using ultrasonic sensors for
+                            precise vehicle detection and parking guidance.</p>
+                        <div class="project-tags">
+                            <span>Arduino</span><span>Ultrasonic</span><span>C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Radar System -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/8.jpg" alt="Radar System"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Radar System</h3>
+                        <p class="project-description">Advanced radar detection system for object tracking and distance
+                            measurement in various applications.</p>
+                        <div class="project-tags">
+                            <span>Processing</span><span>Sensors</span><span>Visualization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Automatic Toll Gate System -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/9.jpg" alt="Automatic Toll Gate System"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automatic Toll Gate System</h3>
+                        <p class="project-description">Automated toll collection system with RFID integration for
+                            seamless highway payment processing.</p>
+                        <div class="project-tags">
+                            <span>RFID</span><span>Automation</span><span>IoT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Rain Detector -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/10.webp" alt="Rain Detector"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Rain Detector</h3>
+                        <p class="project-description">Sensor-based rain detection system with automatic alerts and
+                            smart home integration capabilities.</p>
+                        <div class="project-tags">
+                            <span>Sensors</span><span>Automation</span><span>Alarm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUALIFICATION (Education & Experience) -->
+        <section class="qualification section" id="qualification">
+            <h2 class="section-title">Qualification</h2>
+            <span class="section-subtitle">My Personal Journey</span>
+
+            <div class="qualification-container container">
+                <div class="qualification-tabs">
+                    <div class="qualification-button qualification-active" data-target="#education">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                        </svg>
+                        Education
+                    </div>
+                </div>
+
+                <div class="qualification-sections">
+                    <!-- Education Content -->
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Jagdamba College of Engineering, Yavatmal</h3>
+                                <span class="qualification-subtitle">B.Tech in Computer Engineering</span>
+                                <div class="qualification-calendar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification-data">
+                            <div></div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification-title">Sankalp Science College</h3>
+                                <span class="qualification-subtitle">Higher Secondary Education (Science)</span>
+                                <div class="qualification-calendar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification-data">
+                            <div>
+                                <h3 class="qualification-title">Dr.yardy English High school</h3>
+                                <span class="qualification-subtitle">Primary & Secondary Education</span>
+                                <div class="qualification-calendar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification-rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- CERTIFICATES SECTION -->
+        <section class="certificates section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <span class="section-subtitle">Recognized for excellence in technical projects, competitions, and
+                innovation-driven events</span>
+            <div class="certificates-container container grid">
+                <!-- Certificate Card 1: Research Paper -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/reserch_crf.jpg" target="_blank" class="certificate-link">
+                            <img src="assets/img/reserch_crf.jpg" alt="Research Paper Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Research Paper</h3>
+                        <p class="project-description">The review paper of radar system</p>
+                        <div class="project-tags">
+                            <span>Research</span><span>Publication</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/reserch_crf.jpg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 2: Prarambh YCCE -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/crf_ycc.jpg" target="_blank" class="certificate-link">
+                            <img src="assets/img/crf_ycc.jpg" alt="Prarambh YCCE Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Prarambh YCCE</h3>
+                        <p class="project-description">Participation certificate from YCCE event</p>
+                        <div class="project-tags">
+                            <span>Event</span><span>Certificate</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/crf_ycc.jpg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 3: Project Certificate -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/crf_project.jpg" target="_blank" class="certificate-link">
+                            <img src="assets/img/crf_project.jpg" alt="Project Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Certificate</h3>
+                        <p class="project-description">Certificate for project completion</p>
+                        <div class="project-tags">
+                            <span>Project</span><span>Achievement</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/crf_project.jpg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 5: Kabaddi -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/kabaddi.jpg" target="_blank" class="certificate-link">
+                            <img src="assets/img/kabaddi.jpg" alt="Kabaddi Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Kabaddi</h3>
+                        <p class="project-description">Participation certificate in kabaddi competition</p>
+                        <div class="project-tags">
+                            <span>Sports</span><span>Competition</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/kabaddi.jpg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 6: Table Tennis -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/table_tannis.jpg" target="_blank" class="certificate-link">
+                            <img src="assets/img/table_tannis.jpg" alt="Table Tennis Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Table Tennis</h3>
+                        <p class="project-description">Participation certificate in table tennis competition</p>
+                        <div class="project-tags">
+                            <span>Sports</span><span>Competition</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/table_tannis.jpg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate Card 7: Kho-Kho -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/kho-kho.jpg" target="_blank" class="certificate-link">
+                            <img src="assets/img/kho-kho.jpg" alt="Kho-Kho Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Kho-Kho</h3>
+                        <p class="project-description">Participation certificate in kho-kho competition</p>
+                        <div class="project-tags">
+                            <span>Sports</span><span>Competition</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/kho-kho.jpg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <span class="section-subtitle">Get in touch</span>
+
+            <div class="contact-container container grid">
+                <!-- Left Side - Contact Form -->
+                <div class="contact-content">
+                    
+                    <form action="" class="contact-form">
+                        <div class="contact-form-div">
+                            <label class="contact-form-tag">Name</label>
+                            <input type="text" placeholder="Your name" class="contact-form-input">
+                        </div>
+                        <div class="contact-form-div">
+                            <label class="contact-form-tag">Email</label>
+                            <input type="email" placeholder="your.email@example.com" class="contact-form-input">
+                        </div>
+                        <div class="contact-form-div contact-form-area">
+                            <label class="contact-form-tag">Message</label>
+                            <textarea cols="30" rows="10" placeholder="Tell me about your project or idea..."
+                                class="contact-form-input"></textarea>
+                        </div>
+                        <button class="button contact-form-button">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Right Side - Contact Information Cards -->
+                <div class="contact-content">
+                    <h3 class="contact-title">Contact Information</h3>
+                    <div class="contact-info">
+                        <!-- Email Card -->
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4 class="contact-card-title">Email</h4>
+                                <p class="contact-card-data">tanulohkar@gmail.com</p>
+                                <a href="mailto:tanulohkar@gmail.com" class="contact-card-link">Send Email</a>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp Card -->
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4 class="contact-card-title">WhatsApp</h4>
+                                <p class="contact-card-data">+91 9975284884</p>
+                                <a href="https://wa.me/919975284884" class="contact-card-link" target="_blank">Chat on WhatsApp</a>
+                            </div>
+                        </div>
+
+                        <!-- Social Links Card -->
+                        <div class="contact-card">
+                            <div class="contact-card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4 class="contact-card-title">Social Links</h4>
+                                <div class="social-links">
+                                    <a href="#" class="social-link" title="GitHub">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="social-link" title="LinkedIn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="social-link" title="Instagram">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <h1 class="footer-title">Tanvi N. Lohkar</h1>
+            <ul class="footer-list">
+                <li><a href="#about" class="footer-link">About</a></li>
+                <li><a href="#projects" class="footer-link">Projects</a></li>
+                <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="#" class="footer-social-link">IG</a>
+                <a href="#" class="footer-social-link">X</a>
+                <a href="#" class="footer-social-link">GH</a>
+            </div>
+            <span class="footer-copy">&#169; 2025 Tanvi N. Lohkar. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

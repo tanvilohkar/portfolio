@@ -1,0 +1,43 @@
+# Read the current index.html file
+$content = Get-Content "index.html" -Raw
+
+# Define the new certificate HTML
+$newCertificate = @"
+
+                <!-- Certificate Card 8: Startup Certificate -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <a href="assets/img/startup_crf.jpeg" target="_blank" class="certificate-link">
+                            <img src="assets/img/startup_crf.jpeg" alt="Startup Certificate"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Startup Achievement</h3>
+                        <p class="project-description">Certificate for startup excellence</p>
+                        <div class="project-tags">
+                            <span>Startup</span><span>Achievement</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="assets/img/startup_crf.jpeg" target="_blank" class="project-link">
+                                View Certificate
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+"@
+
+# Replace the closing section with new certificate + closing section
+$content = $content -replace "</div>`n            </div>`n        </section>", "$newCertificate`n            </div>`n        </section>"
+
+# Write back to file
+Set-Content "index.html" -Value $content -NoNewline
+
+Write-Host "Certificate added successfully!"
